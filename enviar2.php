@@ -2,8 +2,8 @@
 $nombre = $_POST['nombre'];
 $para = $_POST['email'];
 $empresa = $_POST['mensaje'];
-$de='rauliglesias1997@gmail.com'
-$link ='https://imgredirect.milanuncios.com/fg/2162/15/postales-de-coleccion/Postal-15-Calpe-216215001_1.jpg'
+$de='rauliglesias1997@gmail.com';
+$link ='https://imgredirect.milanuncios.com/fg/2162/15/postales-de-coleccion/Postal-15-Calpe-216215001_1.jpg';
 
 $header = 'From: ' . $de . " \r\n";
 $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
