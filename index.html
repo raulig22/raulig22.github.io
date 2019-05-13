@@ -100,18 +100,18 @@
 							<!-- Form -->
 								<div class="column">
 									<h3>Envia una postal</h3>
-									<form action="#" method="post">
+									<form action="enviar2.php" method="post">
 										<div class="field half first">
 											<label for="name">Nombre</label>
-											<input name="name" id="name" type="text" placeholder="Name">
+											<input name="name" id="name" type="text" placeholder="Tu nombre">
 										</div>
 										<div class="field half">
 											<label for="email">Email</label>
-											<input name="email" id="email" type="email" placeholder="Email">
+											<input name="email" id="email" type="email" required="required" placeholder="Tu email">
 										</div>
 										<div class="field">
 											<label for="message">Mensaje</label>
-											<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+											<textarea name="message" id="message" rows="6" required="required" placeholder="Mensaje"></textarea>
 										</div>
 										<ul class="actions">
 											<li><input value="Enviar" class="button" type="submit"></li>
