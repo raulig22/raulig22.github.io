@@ -14,7 +14,7 @@ $mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
 $mensaje .= "Su e-mail es: " . $de . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
-$mensaje .= "Accede a este link para ver la maravilllosa postal que te han enviado: "; 
+$mensaje .= "Accede a este link para ver la maravilllosa postal que te han enviado: ". $$link ; 
 
 $asunto = 'Postal de Calpe';
 
